@@ -1,9 +1,44 @@
-list -  Unordered
-<ul>
-<li> </li>
-</ul>
+To insert bolider plate
+! + Enter
+CSS
+===
+Styles =>
+inline
+internal
+external 
 
-Ordered
-<ol>
-<li></li> 
-</ol>
+Selectors =>
+
+Attribute selectors <p> </p>
+p {
+
+}
+
+Class selector <p class="red-text"> </p>
+.red-text {
+
+}
+ID selectors <p ID="main"></p>
+#main {
+    
+}
+Type selectors p[dragable=true]
+Universal selectors * {
+    
+}
+p {
+  color: red;
+}
+.note {
+  font-size: 20px;
+}
+#id-selector-demo {
+  color: green;
+}
+li[value="4"] {
+  color: blue;
+}
+
+* {
+  text-align: center;
+}

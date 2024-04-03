@@ -1,1 +1,5 @@
 *.zip
+solution*.html
+solution/*
+.DS_Store
+goal*
